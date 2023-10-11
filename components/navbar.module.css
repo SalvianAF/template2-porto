@@ -1,0 +1,17 @@
+.title-container{
+    display: flex;
+}
+.nav-container{
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    /* margin-right: 70px; */
+    /* margin-left: 0px; */
+}
+.title-btn{
+    border: 1px solid white;
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    border-radius: 10px;
+    padding: 0 15px 0 15px;
+}
