@@ -136,9 +136,11 @@
   position: absolute;
   top: 0;
   left: 100px;
-  mix-blend-mode:color-dodge;
+  mix-blend-mode: difference;
+  color: #ffffff;
+  /* mix-blend-mode:color-dodge;
   color: rgb(0, 0, 0);
-  background-color: #ffffff;
+  background-color: #ffffff; */
 }
 .desc-role{
   width: 150px;
@@ -162,6 +164,9 @@
   top: -17%;
   left: 0;
   right: 0;
+  background: -webkit-linear-gradient(#000000, #7fffae);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .client-logos{
   display: flex;
