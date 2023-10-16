@@ -29,7 +29,7 @@ export default function Navbar(props) {
 
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
-      <Typography variant="h6" sx={{ my: 2 }}>
+      <Typography variant="h6" sx={{ my: 2}}>
         Name
       </Typography>
       <Divider />
@@ -67,6 +67,7 @@ export default function Navbar(props) {
                         variant="h6"
                         component="div"
                         // sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' } }}
+                        sx={{color:"#000"}}
                     >
                         Name
                     </Typography>
@@ -75,7 +76,7 @@ export default function Navbar(props) {
           <div className={styles['nav-container']}>
             <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
                 {navItems.map((item) => (
-                <Button key={item} sx={{ color: '#fff', marginRight:10 }}>
+                <Button key={item} sx={{ color: '#000', marginRight:10 }}>
                     {item}
                 </Button>
                 ))}

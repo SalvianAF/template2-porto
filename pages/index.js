@@ -93,24 +93,28 @@ export default function Home() {
                   height={200} // Desired size with correct aspect ratio
                   width={200} // Desired size with correct aspect ratio
                   alt="Default"
+                  className={styles.logo}
                 />
                  <Image
                   src="/images/gojek.png" // Route of the image file
                   height={200} // Desired size with correct aspect ratio
                   width={200} // Desired size with correct aspect ratio
                   alt="Default"
+                  className={styles.logo}
                 />
                  <Image
                   src="/images/gojek.png" // Route of the image file
                   height={200} // Desired size with correct aspect ratio
                   width={200} // Desired size with correct aspect ratio
                   alt="Default"
+                  className={styles.logo}
                 />
                  <Image
                   src="/images/gojek.png" // Route of the image file
                   height={200} // Desired size with correct aspect ratio
                   width={200} // Desired size with correct aspect ratio
                   alt="Default"
+                  className={styles.logo}
                 />
             </div>
         </div>
@@ -192,8 +196,8 @@ export default function Home() {
             <div className={styles['contact-info']}>
               <p><b>name@mail.com</b></p>
               <p><b>+62 12345678</b></p>
+              <p className={styles['contact-web']}><b>www.loremipsum.com</b></p>
             </div>
-            <p className={styles['contact-web']}><b>www.loremipsum.com</b></p>
           </div>
           <div className={styles['contact-img-container']}>
             <Image
