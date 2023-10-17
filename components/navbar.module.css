@@ -9,9 +9,9 @@
     /* margin-left: 0px; */
 }
 .title-btn{
-    border: 1px solid white;
+    border: 1px solid rgb(0, 0, 0);
     background-color: rgba(255, 255, 255, 0);
     color: white;
     border-radius: 10px;
-    padding: 0 15px 0 15px;
+    padding: 0 20px 0 20px;
 }

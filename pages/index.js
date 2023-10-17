@@ -13,6 +13,9 @@ export default function Home() {
       <Head>
         <title>Template 2 porto</title>
         <link rel="icon" href="/favicon.ico" />
+        {/* <link rel="preconnect" href="https://fonts.googleapis.com"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet"/> */}
       </Head>
 
       <main>
@@ -141,7 +144,7 @@ export default function Home() {
                     alt="Default"
                     className={styles['project-pict']}
                   />
-                  <p className={styles['project-name']}>Lorem Ipsum asdfa</p>
+                  <h6 className={styles['project-name']}>Lorem Ipsum asdfa</h6>
                 </div>
                 <p className={styles['project-desc']}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non eleifend augue.</p>
               </div>
@@ -156,7 +159,7 @@ export default function Home() {
                     alt="Default"
                     className={`${styles['project-pict']} ${styles['circle']}`}
                   />
-                  <p className={styles['project-name']}>Lorem Ipsum asdfa</p>
+                   <h6 className={styles['project-name']}>Lorem Ipsum asdfa</h6>
                 </div>
               </div>
             </div>
@@ -171,7 +174,7 @@ export default function Home() {
                     alt="Default"
                     className={styles['project-pict']}
                   />
-                  <p className={styles['project-name']}>Lorem Ipsum asdfa</p>
+                   <h6 className={styles['project-name']}>Lorem Ipsum asdfa</h6>
                 </div>
                 <p className={styles['project-desc']}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non eleifend augue.</p>
               </div>
@@ -186,7 +189,7 @@ export default function Home() {
                     alt="Default"
                     className={`${styles['project-pict']} ${styles['circle']}`}
                   />
-                  <p className={styles['project-name']}>Lorem Ipsum asdfa</p>
+                  <h6 className={styles['project-name']}>Lorem Ipsum asdfa</h6>
                 </div>
               </div>
 
