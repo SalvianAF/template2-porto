@@ -18,7 +18,7 @@ export default function Home() {
       <main>
 
         <div className={`${styles.section} ${styles.home}`}>
-          <h1 className={styles['home-title']}>SOCIAL MEDIA SPECIALIST</h1>
+          <h1 className={styles['home-title-back']}>SOCIAL MEDIA SPECIALIST</h1>
           <div className={styles['container-rectangle']}>
             <div className={styles['rectangles']}>
               <div className={`${styles.rectangle} ${styles.stack1}`}></div>
@@ -26,6 +26,7 @@ export default function Home() {
               <div className={`${styles.rectangle} ${styles.stack3}`}></div>
             </div>
           </div>
+          <h1 className={styles['home-title-front']}>SOCIAL MEDIA SPECIALIST</h1>
           <div className={styles['home-footer']}>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tempor felis nulla, iaculis auctor magna facilisis in.</p>
           <div className={styles.circle}></div>
@@ -34,8 +35,7 @@ export default function Home() {
         
         <div className={`${styles.section} ${styles.team}`}>
           <div className={styles['team-title']}>
-              <h2>MEET&nbsp;</h2>
-              <h2 className={styles['txt-bg-black']}>OUR TEAM</h2>
+              <h2>MEET&nbsp; <span className={styles['txt-bg-black']}>OUR TEAM</span></h2>
           </div>
           <div className={styles.members}>
             <div className={styles.member}>
@@ -46,7 +46,8 @@ export default function Home() {
                 alt="Default"
                 className={styles['profile-pict']}
                />
-               <h3 className={`${styles['profile-role']} ${styles.left}`}>CREATIVE DIRECTOR</h3>
+               <h3 className={styles['profile-role-back']}>CREATIVE DIRECTOR</h3>
+               <h3 className={`${styles['profile-role-front']} ${styles.left}`}>CREATIVE DIRECTOR</h3>
                <p className={styles['desc-role']}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non eleifend augue.</p>
             </div>
             <div className={styles.member}>
@@ -57,7 +58,8 @@ export default function Home() {
                 alt="Default"
                 className={styles['profile-pict']}
                />
-               <h3 className={`${styles['profile-role']} ${styles.left}`}>CREATIVE DIRECTOR</h3>
+               <h3 className={styles['profile-role-back']}>CREATIVE DIRECTOR</h3>
+               <h3 className={`${styles['profile-role-front']} ${styles.left}`}>CREATIVE DIRECTOR</h3>
                <p className={styles['desc-role']}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non eleifend augue.</p>
             </div>
             <div className={styles.member}>
@@ -68,7 +70,8 @@ export default function Home() {
                 alt="Default"
                 className={styles['profile-pict']}
                />
-               <h3 className={`${styles['profile-role']} ${styles.left}`}>CREATIVE DIRECTOR</h3>
+               <h3 className={styles['profile-role-back']}>CREATIVE DIRECTOR</h3>
+               <h3 className={`${styles['profile-role-front']} ${styles.left}`}>CREATIVE DIRECTOR</h3>
                <p className={styles['desc-role']}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non eleifend augue.</p>
             </div>
             <div className={styles.member}>
@@ -79,45 +82,50 @@ export default function Home() {
                 alt="Default"
                 className={styles['profile-pict']}
                />
-               <h3 className={`${styles['profile-role']} ${styles.left}`}>CREATIVE DIRECTOR</h3>
+               <h3 className={styles['profile-role-back']}>CREATIVE DIRECTOR</h3>
+               <h3 className={`${styles['profile-role-front']} ${styles.left}`}>CREATIVE DIRECTOR</h3>
                <p className={styles['desc-role']}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non eleifend augue.</p>
             </div>
           </div>
         </div>
-
-        <div className={styles.clients}>
-            <h3>OUR CLIENTS</h3>
-            <div className={styles['client-logos']}>
-              <Image
-                  src="/images/gojek.png" // Route of the image file
-                  height={200} // Desired size with correct aspect ratio
-                  width={200} // Desired size with correct aspect ratio
-                  alt="Default"
-                  className={styles.logo}
-                />
-                 <Image
-                  src="/images/gojek.png" // Route of the image file
-                  height={200} // Desired size with correct aspect ratio
-                  width={200} // Desired size with correct aspect ratio
-                  alt="Default"
-                  className={styles.logo}
-                />
-                 <Image
-                  src="/images/gojek.png" // Route of the image file
-                  height={200} // Desired size with correct aspect ratio
-                  width={200} // Desired size with correct aspect ratio
-                  alt="Default"
-                  className={styles.logo}
-                />
-                 <Image
-                  src="/images/gojek.png" // Route of the image file
-                  height={200} // Desired size with correct aspect ratio
-                  width={200} // Desired size with correct aspect ratio
-                  alt="Default"
-                  className={styles.logo}
-                />
-            </div>
+        
+        <div className={styles["clients-sec"]}>
+          <h3 className={styles["client-title-back"]}>OUR CLIENTS</h3>
+              <h3 className={styles["client-title-front"]}>OUR CLIENTS</h3>
+          <div className={styles.clients}>
+              <div className={styles['client-logos']}>
+                <Image
+                    src="/images/gojek.png" // Route of the image file
+                    height={200} // Desired size with correct aspect ratio
+                    width={200} // Desired size with correct aspect ratio
+                    alt="Default"
+                    className={styles.logo}
+                  />
+                  <Image
+                    src="/images/gojek.png" // Route of the image file
+                    height={200} // Desired size with correct aspect ratio
+                    width={200} // Desired size with correct aspect ratio
+                    alt="Default"
+                    className={styles.logo}
+                  />
+                  <Image
+                    src="/images/gojek.png" // Route of the image file
+                    height={200} // Desired size with correct aspect ratio
+                    width={200} // Desired size with correct aspect ratio
+                    alt="Default"
+                    className={styles.logo}
+                  />
+                  <Image
+                    src="/images/gojek.png" // Route of the image file
+                    height={200} // Desired size with correct aspect ratio
+                    width={200} // Desired size with correct aspect ratio
+                    alt="Default"
+                    className={styles.logo}
+                  />
+              </div>
+          </div>
         </div>
+       
        
         <div className={`${styles.section} ${styles.projects}`}>
           <h2>PROJECTS</h2>
