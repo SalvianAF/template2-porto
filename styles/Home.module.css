@@ -315,7 +315,14 @@
 @media (max-width: 768px) {
   .home-footer{
     margin-top: 60px;
+    flex-direction: column;
+    padding: 0 10px 0 10px;
   }
+  .circle{
+    align-self: end;
+    margin: 10px 0 10px 0;
+  }
+
   .rectangle{
     width: 150px;
     height: 220px;

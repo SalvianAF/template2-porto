@@ -31,8 +31,8 @@ export default function Home() {
           </div>
           <h1 className={styles['home-title-front']}>SOCIAL MEDIA SPECIALIST</h1>
           <div className={styles['home-footer']}>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tempor felis nulla, iaculis auctor magna facilisis in.</p>
-          <div className={styles.circle}></div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tempor felis nulla, iaculis auctor magna facilisis in.</p>
+            <div className={styles.circle}></div>
           </div>
         </div>
         
